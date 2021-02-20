@@ -17,7 +17,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 #### BONUS
 - [x] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
@@ -26,6 +26,6 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
-- The walkthrough was straightforward and I did not encouter too many challenges.
 - I spent too much time trying to figure out why my poster images weren't loaded but it was simply a mistyped URL. 
 - Overall I have enjoyed learning the new concepts and Swift syntax. It is a bit challenging to understand the ? and ! differences but I'll read up on it more. 
+- It was difficult to add my app to my phone since I had to add my Apple ID as personal development team and then trust profile in phone. Ended up working though!
