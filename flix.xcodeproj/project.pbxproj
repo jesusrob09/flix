@@ -18,6 +18,9 @@
 		8030C01D25E079DE00F03F3F /* flixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8030C01C25E079DE00F03F3F /* flixUITests.swift */; };
 		8030C03125E0848100F03F3F /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8030C03025E0848100F03F3F /* MoviesViewController.swift */; };
 		8030C03625E0943F00F03F3F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8030C03525E0943F00F03F3F /* MovieCell.swift */; };
+		80EFB6F125E9DBE900202F9D /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFB6F025E9DBE900202F9D /* MovieDetailsViewController.swift */; };
+		80EFB6F625E9E95F00202F9D /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFB6F525E9E95F00202F9D /* MovieGridViewController.swift */; };
+		80EFB6FB25E9EFB700202F9D /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EFB6FA25E9EFB700202F9D /* MovieGridCell.swift */; };
 		99DCCFDA31BAD650F1416718 /* Pods_flix_flixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EC0070D201A09D05F918D8 /* Pods_flix_flixUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +60,9 @@
 		8030C01E25E079DE00F03F3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8030C03025E0848100F03F3F /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		8030C03525E0943F00F03F3F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		80EFB6F025E9DBE900202F9D /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		80EFB6F525E9E95F00202F9D /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		80EFB6FA25E9EFB700202F9D /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		82EB92F3982230BEED9A6962 /* Pods_flixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88EC0070D201A09D05F918D8 /* Pods_flix_flixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flix_flixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		989267544392868FAC0144BD /* Pods-flix-flixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix-flixUITests.release.xcconfig"; path = "Target Support Files/Pods-flix-flixUITests/Pods-flix-flixUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 				8030C00825E079DE00F03F3F /* Info.plist */,
 				8030C03025E0848100F03F3F /* MoviesViewController.swift */,
 				8030C03525E0943F00F03F3F /* MovieCell.swift */,
+				80EFB6F025E9DBE900202F9D /* MovieDetailsViewController.swift */,
+				80EFB6F525E9E95F00202F9D /* MovieGridViewController.swift */,
+				80EFB6FA25E9EFB700202F9D /* MovieGridCell.swift */,
 			);
 			path = flix;
 			sourceTree = "<group>";
@@ -409,10 +418,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EFB6F125E9DBE900202F9D /* MovieDetailsViewController.swift in Sources */,
 				8030BFFB25E079DC00F03F3F /* AppDelegate.swift in Sources */,
 				8030BFFD25E079DC00F03F3F /* SceneDelegate.swift in Sources */,
 				8030C03625E0943F00F03F3F /* MovieCell.swift in Sources */,
 				8030C03125E0848100F03F3F /* MoviesViewController.swift in Sources */,
+				80EFB6F625E9E95F00202F9D /* MovieGridViewController.swift in Sources */,
+				80EFB6FB25E9EFB700202F9D /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
